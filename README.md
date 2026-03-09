@@ -40,16 +40,6 @@ DML does not discard Propensity Scores; it **incorporates them into a "Double-Ro
 | **Complexity** |Low; easy to explain to clinicians.| High; requires careful explanation.|
 | **Best Use Case** | Low-dimensional, well-understood data.| High-dimensional data with complex interactions.|
 
-### ✅ Use Propensity Methods When:
-* The number of covariates is small ($p < 20$).
-* The relationship between confounders and treatment is well-understood and likely linear.
-* You need a "Table 1" to demonstrate covariate balance to a regulatory body.
-
-### 🚀 Use Double Machine Learning When:
-* You are dealing with hundreds or thousands of covariates (e.g., omics data or unstructured EHR).
-* The "assignment" of a drug is complex and depends on non-linear thresholds (e.g., age, weight, and lab values interacting).
-* You want to use high-performance models (XGBoost, Lasso, Neural Nets) but still need **valid P-values and Confidence Intervals.**
-
 ---
 
 ## 🛠 Python Implementation (EconML)
