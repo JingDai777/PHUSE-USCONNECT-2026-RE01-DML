@@ -44,7 +44,7 @@ DML does not discard Propensity Scores; it **incorporates them into a "Double-Ro
 
 ## 🛠 Python Implementation (EconML)
 
-This project utilizes Microsoft’s `EconML` library to implement the DML framework.
+The following code utilizes Microsoft’s `EconML` library to implement the DML framework, and uses random forest as an example for the ML modeling parts. Please choose ML models most suitable to your data.
 
 ```python
 from econml.dml import LinearDML
