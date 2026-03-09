@@ -3,7 +3,7 @@
 [![PHUSE 2026](https://img.shields.io/badge/Conference-PHUSE%202026-blue)](https://phuse.global/)
 
 ## 📌 Overview
-This repository contains the python code, and conceptual framework for the **PHUSE US CONNECT 2026** paper: *"Robust Causal Inference in Real-world Evidence Studies with Double Machine Learning"*
+This repository contains the python code, and conceptual framework for the **PHUSE US CONNECT 2026** paper RE01: *"Robust Causal Inference in Real-world Evidence Studies with Double Machine Learning"*
 
 As clinical research increasingly shifts toward Large-Scale Real-World Data (RWD), traditional propensity score methods often struggle with high-dimensional confounders and non-linear relationships. This paper introduces **Double Machine Learning (DML)** as a modern alternative that provides valid statistical inference even when complex black-box models are used to estimate nuisance parameters.
 
