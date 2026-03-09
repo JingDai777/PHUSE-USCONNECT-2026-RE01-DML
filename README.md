@@ -1,4 +1,4 @@
-# Double Machine Learning vs. Propensity Score Methods: Causal Inference in Complex Clinical Data
+# Robust Causal Inference in Real-world Evidence Studies with Double Machine Learning
 
 [![PHUSE 2026](https://img.shields.io/badge/Conference-PHUSE%202026-blue)](https://phuse.global/)
 
