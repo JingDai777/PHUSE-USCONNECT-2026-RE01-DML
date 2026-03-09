@@ -22,11 +22,11 @@ Double Machine Learning (Chernozhukov et al., 2018) is a framework that uses "or
 
 ---
 
-## 🔗 DML and Propensity Score Methods
+## 🔗 Comparing DML and Propensity Score (PS) Methods
 
 DML does not discard Propensity Scores; it **incorporates them into a "Double-Robust" framework.**
 
-* **Propensity Score (PS) Methods:** Focus primarily on the treatment assignment mechanism $P(T|X)$. If the PS model is misspecified (e.g., a simple logistic regression fails to capture complex interactions), the resulting treatment effect will be biased.
+* **PS Methods:** Focus primarily on the treatment assignment mechanism $P(T|X)$. If the PS model is misspecified (e.g., a simple logistic regression fails to capture complex interactions), the resulting treatment effect will be biased.
 * **DML Advantage:** DML models *both* the treatment (Propensity) and the outcome (Prognostic). By using **Neyman-Orthogonality**, it ensures that even if one of these models has a slight estimation error (common in ML), the error doesn't "leak" into the final treatment effect estimate.
 
 ---
