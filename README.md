@@ -31,15 +31,14 @@ DML does not discard Propensity Scores; it **incorporates them into a "Double-Ro
 
 ---
 
-## ⚖️ When to Use Which?
+## ⚖️ Model Selection Strategy: DML vs PS Methods
 
-| Feature | Traditional Propensity Score (Matching/IPW) | Double Machine Learning (DML) |
+| Feature | IPTW / PSM | DML |
 | :--- | :--- | :--- |
-| **Data Complexity** | Best for low-dimensional, "clean" data. | Optimized for high-dimensional EHR/RWD. |
-| **Interaction Effects** | Must be manually specified in the model. | Automatically handled by ML (e.g., Random Forest). |
-| **Bias Reduction** | Vulnerable to "Model Misspecification." | Robust due to Double-Robustness & Cross-fitting. |
-| **Interpretation** | Easy to visualize via Balance Tables. | Focused on the Average Treatment Effect (ATE). |
-| **Sample Size** | Works well with small $N$. | Requires larger $N$ for ML convergence. |
+| **Primary Goal** | Covariate balance across groups.| Bias reduction in high-dimensional and nonlinear settings.|
+| **Model Focus** | Mostly Treatment Assignment (PS).| Both Treatment and Outcome models.|
+| **Complexity** |Low; easy to explain to clinicians.| High; requires careful explanation.|
+| **Best Use Case** | Low-dimensional, well-understood data.| High-dimensional data with complex interactions.|
 
 ### ✅ Use Propensity Methods When:
 * The number of covariates is small ($p < 20$).
