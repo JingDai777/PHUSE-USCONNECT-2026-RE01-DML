@@ -36,7 +36,7 @@ DML does not discard Propensity Scores; it **incorporates them into a "Double-Ro
 | Feature | IPTW / PSM | DML |
 | :--- | :--- | :--- |
 | **Primary Goal** | Covariate balance across groups.| Bias reduction in high-dimensional and nonlinear settings.|
-| **Model Focus** | Mostly Treatment Assignment (PS).| Both Treatment and Outcome models.|
+| **Model Focus** | Mostly treatment assignment (PS).| Both treatment and outcome models.|
 | **Complexity** |Low; easy to explain to clinicians.| High; requires careful explanation.|
 | **Best Use Case** | Low-dimensional, well-understood data.| High-dimensional data with complex interactions.|
 
