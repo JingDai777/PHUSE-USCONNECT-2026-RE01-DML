@@ -53,8 +53,6 @@ DML does not discard Propensity Scores; it **incorporates them into a "Double-Ro
 
 ---
 
-## 💻 Implementation Example (R / `DoubleML`)
-
 ## 🛠 Python Implementation (EconML)
 
 This project utilizes Microsoft’s `EconML` library to implement the DML framework.
